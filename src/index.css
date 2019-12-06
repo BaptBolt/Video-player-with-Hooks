@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'MovieNite';
+  src: local('MovieNite'), url(./Font/MovieNite.ttf) format('truetype');
+}

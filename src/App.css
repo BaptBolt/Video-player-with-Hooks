@@ -4,13 +4,6 @@
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -25,14 +18,72 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #09d3ac;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-brand{
+  font-family: 'MovieNite';
+  letter-spacing: 3px;
+  color: goldenrod;
+  margin: 0 auto;
+}
+
+h1.navbar-brand{
+  font-family: 'MovieNite';
+  letter-spacing: 3px;
+  color: goldenrod;
+  margin: 0 auto;
+  font-size: 100px; 
+}
+
+.form-inline{
+  width: 100%;
+}
+
+.form-inline .form-control{
+  width: 0;
+}
+
+.form-control.mr-sm-2{
+  width:86%;
+}
+
+.btn.btn-outline-success.my-2.my-sm-0{
+  width: 13%;
+}
+
+.input.form-control.mr-sm-2{
+  width: 60%;
+}
+
+.navbar.navbar-light.bg-light{
+  margin-bottom: 30px;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.input.form-control.mr-sm-2{
+  width: 100px;
+}
+
+.buttons{
+  margin-top: 10px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.progressBar{
+  width: 100%;
+  height: 20px;
+  background-color: grey;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.progress{
+  width : 20%;
+  height: 20px;
+  background-color: blue;
+  border-radius: 20px;
 }
