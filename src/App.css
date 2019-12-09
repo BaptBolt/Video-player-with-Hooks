@@ -52,8 +52,8 @@ h1.navbar-brand{
   width: 13%;
 }
 
-.input.form-control.mr-sm-2{
-  width: 60%;
+.form-inline .form-control{
+  width: 83%;
 }
 
 .navbar.navbar-light.bg-light{
@@ -62,9 +62,6 @@ h1.navbar-brand{
   width: 80%;
 }
 
-.input.form-control.mr-sm-2{
-  width: 100px;
-}
 
 .buttons{
   margin-top: 10px;
