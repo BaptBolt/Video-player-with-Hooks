@@ -28,6 +28,20 @@
   margin: 0 auto;
 }
 
+.button-submit{
+  height: 45px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.form-control.mr-sm-2{
+  width: 100%;
+}
+
+.search-bar{
+  margin-bottom: 20px;
+}
+
 h1.navbar-brand{
   font-family: 'MovieNite';
   letter-spacing: 3px;
@@ -36,32 +50,14 @@ h1.navbar-brand{
   font-size: 100px; 
 }
 
-.form-inline{
-  width: 100%;
+.displayNone{
+  display: none;
 }
 
-.form-inline .form-control{
-  width: 0;
+.displayBlock{
+  display: block;
+  margin-top: 20px;
 }
-
-.form-control.mr-sm-2{
-  width:86%;
-}
-
-.btn.btn-outline-success.my-2.my-sm-0{
-  width: 13%;
-}
-
-.form-inline .form-control{
-  width: 83%;
-}
-
-.navbar.navbar-light.bg-light{
-  margin-bottom: 30px;
-  border-radius: 20px;
-  width: 80%;
-}
-
 
 .buttons{
   margin-top: 10px;
@@ -84,3 +80,4 @@ h1.navbar-brand{
   background-color: blue;
   border-radius: 20px;
 }
+
